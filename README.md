@@ -1,3 +1,10 @@
+# Description:
+This project is carried out in a virtual environment called CARLA (Car Learning to Act), the essential goal is to enable autonomous driving in a trajectory while identifying the elements that surround the car. The project is divided into two phases:
+**The first phase is computer vision:**
+At this stage, a YOLO (You Only Look Once) computer vision model was implemented. After fine tuning and training with traffic light images, the model becomes able to better detect these elements, the images are obtained by launching the car with specific sensors in Carla's environment.
+**The second phase is to implement the decision-making model:**
+A deep Q-Network model is integrated and trained so that the car can determine the action that must be taken at each stage in order to reach the final destination
+
 # Self-Driving-CARLA-DRL
 building and training a car in the CARLA simulator using Deep Reinforcement Learning
 
